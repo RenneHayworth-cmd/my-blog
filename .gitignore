@@ -1,0 +1,55 @@
+# Local environment
+.env
+.env.*
+!.env.example
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs and runtime files
+*.log
+debug.log
+
+# Dependencies and build output
+node_modules/
+vendor/
+dist/
+build/
+
+# WordPress runtime content
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/backup*/
+wp-content/backups/
+wp-content/ai1wm-backups/
+wp-content/wflogs/
+wp-content/debug.log
+
+# WordPress image defaults copied into bind mounts
+wp-content/index.php
+wp-content/themes/index.php
+wp-content/themes/twentytwenty*/
+wp-content/plugins/index.php
+wp-content/plugins/hello.php
+wp-content/plugins/akismet/
+
+# Keep custom code trackable
+!wp-content/themes/
+!wp-content/plugins/
+!wp-content/mu-plugins/
+!wp-content/themes/.gitkeep
+!wp-content/plugins/.gitkeep
+!wp-content/mu-plugins/.gitkeep
+
+# Database dumps should be deliberate exports, not accidental commits
+*.sql
+*.sql.gz
+*.dump
