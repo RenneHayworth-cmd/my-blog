@@ -16,6 +16,7 @@ Thumbs.db
 # Logs and runtime files
 *.log
 debug.log
+.backups/
 
 # Dependencies and build output
 node_modules/
@@ -40,6 +41,8 @@ wp-content/themes/twentytwenty*/
 wp-content/plugins/index.php
 wp-content/plugins/hello.php
 wp-content/plugins/akismet/
+wp-content/plugins/astra-sites/
+wp-content/themes/astra/
 
 # Keep custom code trackable
 !wp-content/themes/
